@@ -1,0 +1,65 @@
+.text-destacado{
+    color: rgb(241, 26, 26) !important;
+}
+
+.btn-contacto{
+    background-color: #050200;
+    color: rgb(248, 246, 247);
+}
+
+.btn-enviar{
+    background-color: #0d6efd;
+    color: whitesmoke;
+}
+
+.btn-contacto:hover{
+    background-color: #9c715c;
+    color: whitesmoke;
+}
+
+#header img{
+    width: 80px;
+}
+
+.carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+
+    height: 100%;
+
+
+}
+
+#contacto {
+    background-color: rgba(137, 194, 31, 0.5);
+    color: rgb(136, 48, 48);
+}
+
+#footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(0, 36, 21) 0%, rgb(13, 168, 207) 35%, rgb(204, 70, 18) 100%);
+}
+
+#footer a{
+    color: white;
+}
